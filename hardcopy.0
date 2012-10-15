@@ -1,0 +1,47 @@
+ a/m/post.rb  a/m/user.rb                                                                                                                                                        X
+  1 class Post < ActiveRecord::Base
+  2   attr_accessible :content, :user_id
+  3   belongs_to :user
+  4
+  5   validates :content, :length => {:maximum => 140}
+  6 end
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+                                                                                                                                                                5,1           All
